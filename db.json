@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "questionId": 25,
+            "quizId": 3,
+            "questionTitle": "Which keyword is used to define a subclass in Java?",
+            "option1": "child",
+            "option2": "extends",
+            "option3": "inherits",
+            "option4": "subclass"
+        },
+        {
+            "questionId": 19,
+            "quizId": 3,
+            "questionTitle": "What is a linked list?",
+            "option1": "A type of array",
+            "option2": "A linear data structure",
+            "option3": "A collection of objects",
+            "option4": "A group of classes"
+        },
+        {
+            "questionId": 27,
+            "quizId": 3,
+            "questionTitle": "Maximum value of a byte in java",
+            "option1": "100",
+            "option2": "127",
+            "option3": "255",
+            "option4": "1023"
+        },
+        {
+            "questionId": 2,
+            "quizId": 3,
+            "questionTitle": "What does OOP stand for?",
+            "option1": "Object-Oriented Programming",
+            "option2": "Object Ordering Process",
+            "option3": "Operating Overloaded Pointers",
+            "option4": "Order of Operations"
+        },
+        {
+            "questionId": 15,
+            "quizId": 3,
+            "questionTitle": "Which type of loop is ideal for situations where the number of iterations is known?",
+            "option1": "for loop",
+            "option2": "while loop",
+            "option3": "do-while loop",
+            "option4": "until loop"
+        },
+        {
+            "questionId": 5,
+            "quizId": 3,
+            "questionTitle": "What is a constructor?",
+            "option1": "A member of a class",
+            "option2": "A loop in Python",
+            "option3": "A data type",
+            "option4": "A special method"
+        },
+        {
+            "questionId": 8,
+            "quizId": 3,
+            "questionTitle": "Which keyword is used to define a variable that won’t be reassigned?",
+            "option1": "static",
+            "option2": "final",
+            "option3": "constant",
+            "option4": "immutable"
+        },
+        {
+            "questionId": 23,
+            "quizId": 3,
+            "questionTitle": "What is the purpose of the \"finally\" block in a try-catch-finally statement?",
+            "option1": "To handle exceptions",
+            "option2": "To define a fallback value",
+            "option3": "To execute code regardless of exceptions",
+            "option4": "To terminate the program"
+        },
+        {
+            "questionId": 17,
+            "quizId": 3,
+            "questionTitle": "In Java, which access modifier provides the widest visibility?",
+            "option1": "public",
+            "option2": "private",
+            "option3": "protected",
+            "option4": "package-private"
+        },
+        {
+            "questionId": 12,
+            "quizId": 3,
+            "questionTitle": "Which of the following is not a primitive data type in Java?",
+            "option1": "int",
+            "option2": "boolean",
+            "option3": "char",
+            "option4": "string"
+        }
+    ]
+}
