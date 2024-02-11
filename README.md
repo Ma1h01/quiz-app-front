@@ -10,3 +10,5 @@ In the project directory, you can run:
 
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Or open [https://cs-quiz-generator.netlify.app](https://cs-quiz-generator.netlify.app) to view without run the application locally.
