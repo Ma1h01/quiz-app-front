@@ -22,7 +22,7 @@ const CountDownTimer = ({timeRemaining, decreaseTimer, submitFlag}) => {
         return () => {
             clearInterval(intervalId)
         }
-    }, [timeRemaining, decreaseTimer])
+    }, [timeRemaining, decreaseTimer, submitFlag])
 
     const minutes = Math.floor(timeRemaining / 60)
     const seconds = timeRemaining % 60

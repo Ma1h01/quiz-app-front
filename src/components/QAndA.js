@@ -74,7 +74,7 @@ const QAndA = () => {
     }
     console.log(submitFlag.current)
     console.log(currIndex)
-  }, [responses, currIndex])
+  }, [responses, currIndex, questions.length, quizId])
 
 
   // When the user clicks on an option, the response is added to the responses array, which will be sent to the server for grading.
