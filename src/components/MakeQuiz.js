@@ -6,8 +6,8 @@ function MakeQuiz() {
     const [category, setCategory] = useState('')
 
     const makeQuiz = async () => {
-        let link = category === '' ? `https://surely-grand-prawn.ngrok-free.app/quiz/create?numQ=${numQuestions}&title=${quizTitle}` : 
-        `https://surely-grand-prawn.ngrok-free.app/quiz/create?category=${category}&numQ=${numQuestions}&title=${quizTitle}`
+        let link = category === '' ? `http://localhost:8080/quiz/create?numQ=${numQuestions}&title=${quizTitle}` : 
+        `http://localhost:8080/quiz/create?category=${category}&numQ=${numQuestions}&title=${quizTitle}`
         await fetch(link, {
             method: 'POST',
             headers: {
