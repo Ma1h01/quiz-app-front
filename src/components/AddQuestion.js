@@ -14,7 +14,7 @@ function AddQuestion() {
     const [category, setCategory] = useState('')
 
     const addQuestion = async () => {
-        await fetch('http://localhost:8080/question/add', {
+        await fetch('https://surely-grand-prawn.ngrok-free.app/question/add', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

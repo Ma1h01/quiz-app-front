@@ -16,7 +16,7 @@ const QAndA = () => {
   const {mode} = useParams()
 
   const fetchQuestions = async () => {
-    const res = await fetch('http://localhost:8080/quiz/get', {
+    const res = await fetch('https://surely-grand-prawn.ngrok-free.app/quiz/get', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ const QAndA = () => {
 
 
   const submitResponses = async (id, allResponses) => {
-    const res = await fetch(`http://localhost:8080/quiz/submit/${id}`, {
+    const res = await fetch(`https://surely-grand-prawn.ngrok-free.app/quiz/submit/${id}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
