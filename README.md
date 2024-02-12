@@ -5,10 +5,5 @@ The current version does not use BootStrap.
 We'll use BootStrap to beautify the UI for the next version.
 
 ## How to run
-
-In the project directory, you can run:
-
-### `npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-Or open [https://cs-quiz-generator.netlify.app](https://cs-quiz-generator.netlify.app) to view without run the application locally.
+1. Follow the steps described in my [quiz-app-back repo](https://github.com/Ma1h01/quiz-app-back.git) to turn on the server and database
+2. Open [https://cs-quiz-generator.netlify.app](https://cs-quiz-generator.netlify.app) to interact with the UI
